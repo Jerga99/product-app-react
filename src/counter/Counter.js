@@ -14,11 +14,14 @@ function Counter() {
     <div className="counter-container">
       <CounterView counter={count}/>
       <button onClick={() => increment(+100)}>
-        Increment
+        Increment Number
       </button>
       <button onClick={() => increment(-50)}>
-        Decrement
+        Decrement Number
       </button>
+      <div>
+        Hello World
+      </div>
     </div>
   )
 }
